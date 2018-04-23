@@ -10,7 +10,7 @@
         "buttonsColor": "#000000",
         "secondaryColor": "#9b59b6",
         "successColor": "#2ecc71",
-        "infoColor": "#3498db",
+        "infoColor": "#000745",
         "warningColor": "#f1c40f",
         "dangerColor": "#e74c3c",
         "titleFont": "Arvo",
@@ -18,14 +18,15 @@
         "textFont": "Open Sans",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#000745"
+        "#000745",
+        "#49140e"
       ]
     },
     "versionFirst": "4.7.1",
-    "uniqCompNum": 24,
+    "uniqCompNum": 44,
     "versionPublish": "4.7.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -144,16 +145,18 @@
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase",
-              "color": "#000745",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-size": "19px"
+              "color": "#000000",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "font-size": "19px",
+              "text-align": "left"
             },
             ".mbr-section-text": {
               "color": "#000000",
               "font-size": "18px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "text-align": "left"
             },
             ".mbr-section-title": {
               "color": "#000745",
@@ -171,7 +174,9 @@
             },
             ".mbr-section-title B": {
               "color": "#000745",
-              "font-size": "84px"
+              "font-size": "84px",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
             }
           },
           "_params": {
@@ -210,7 +215,7 @@
           },
           "title1": "<b>ÓMÓ</b>",
           "subtitle1": "OMO IS YOU AND I, AND ALL THAT HUMANITY REPRESENTS.",
-          "caption1": "At fourteen Omo had a clear picture of her dream future. Her mother tells her \"life is a function of choices,\" so she sticks to this truism. Every decision she took leads her to another... until she had exhausted all her chances, and yet faraway from her destination.<br><br>In her journey of self-determination: from the Sediments of Sun City, through the Fiery Galadima Forest  - traversing the Sand Dunes and Barchans of the Sahara and the Boorish Waves of the Mediterranean to the Piedmont Region of Modern Italy, Omo's story is that of courage, self-discovery, encapsulated in the intricate tapestry of a mother's undying love for her child.",
+          "caption1": "At fourteen, Omo had a clear picture of her dream future. Her mother tells her \"life is a function of choices,\" so she sticks to this truism. Every decision she takes leads her to taking another... until she exhausts all her chances and discovers the truth herself.<br><br>From the Sediments of Sun City, through the Fiery Galadima Forest  - traversing the Sand Dunes and Barchans of the Sahara and the Boorish Waves of the Mediterranean to the Piedmont Region of Modern Italy, Omo's story is that of courage, self-discovery, encapsulated in the intricate tapestry of a mother's undying love for her child.",
           "number1": "1",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
@@ -227,7 +232,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"http://alexanderemmanuel.net/\" data-toolbar=\"-mbrBtnMove\">PRE-ORDER STARTING SOON</a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"http://alexanderemmanuel.net/\" data-toolbar=\"-mbrBtnMove\">PRE-ORDER STARTING SOON</a> ",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -237,34 +242,36 @@
         },
         {
           "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "color": "#eeeeee"
+            },
             ".mbr-section-title": {
-              "font-weight": "700",
-              "color": "#f1c40f",
-              "font-size": "60px"
+              "text-align": "left",
+              "font-size": "48px"
             },
-            ".display-6": {
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "font-weight": "400",
-              "color": "#fff"
-            },
-            ".mbr-cards-row": {
-              "margin-top": "40px"
+            ".mbr-section-title B": {
+              "color": "#f1c40f"
             }
           },
           "_params": {
-            "showTitle": true,
             "showImages": false,
-            "showTitles": false,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": true,
             "ShowTexts": false,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "columns": "2",
+            "showButtons": false,
+            "imageSize": "45",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/omo-mock1-2000x1334.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/omo-mock2-2000x778.jpg",
             "parallax": false,
             "bgColorRadio": false,
-            "bgColor": "#434350",
+            "bgColor": "#ecf0f1",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -273,17 +280,18 @@
             "overlayColor": "#000000",
             "overlayOpacity": "0.6"
           },
-          "title": "<br>BASED<br>ON<br>REAL<br>EVENTS<br>",
-          "media": {
+          "media1": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/notebook/nb7.png",
+              "src": "@THEME_PATH@/components/_images/notebook/nb11.png",
               "class": "card-img-top",
+              "width": 600,
               "active": true
             }
           },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
+          "title1": "<font color=\"#f1c40f\"><b>MUSE</b></font><br><font color=\"#f1c40f\"><b>PASSION</b></font><br><font color=\"#f1c40f\"><b>ART</b></font><br><font color=\"#f1c40f\"><b>PEN</b></font>",
+          "subtitle1": "ALL IN ONE",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "number1": "1",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
@@ -293,12 +301,19 @@
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "features15",
-          "_anchor": "features15-c"
+          "_name": "features8",
+          "_anchor": "features8-u"
         },
         {
           "_styles": {
@@ -314,6 +329,9 @@
             },
             ".card-footer > small": {
               "color": "#bdc3c7"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
             }
           },
           "_params": {
@@ -342,7 +360,7 @@
             "visibleSlides": "3",
             "slides": [
               {
-                "active": false,
+                "active": true,
                 "text": "<p>\"Set at a period when&nbsp;<span style=\"background-color: transparent;\">trans-national terrorism and trafficking thrived in Africa, Omo beams on the hawkish realities of the girl-child in contemporary Africa.\"</span></p>",
                 "authorName": "Love Idoko",
                 "authorBio": "TV HOST/AUTHOR OFACTIVATING SUCCESS",
@@ -378,7 +396,43 @@
                 }
               },
               {
-                "active": true,
+                "active": false,
+                "text": "<p>\"With sardonic wit and unmatched creativity, Alexander Emmanuel Ochogwu has proven, through this work, to be a master of satire and socio-cultural euphemisms.\"</p>",
+                "authorName": "Daily Trust Newspaper",
+                "authorBio": "MEDIA TRUST LIMITED",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/dailytrustlogox-160x153.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": ""
+                  }
+                }
+              },
+              {
+                "active": false,
+                "text": "<p>\"As Nigeria's One Customer Bank, we are glad to be associated with the Omo project, and hopeful that this book will reinforce the sterling qualities of the girl-child.\"</p>",
+                "authorName": "Sterling Bank",
+                "authorBio": "YOUR ONE COSTUMER BANK",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/sterlinglogox-1-160x160.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": ""
+                  }
+                }
+              },
+              {
+                "active": false,
                 "text": "<p>\"We Must take this advocacy campaign to the streets, and every home, until the last girl in Nigeria is liberated and secured.\"</p>",
                 "authorName": "Hon Abike Dabiri-Erewa",
                 "authorBio": "SENIOR SPCIAL ASST. TO THE PRESIDENT OF FOREIGN AFFAIRS AND THE DIASPORA",
@@ -425,12 +479,15 @@
               "text-align": "right"
             },
             ".mbr-section-text": {
-              "font-size": "16px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+              "font-size": "14px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             },
             ".imgTitle SPAN": {
               "font-size": "80px"
+            },
+            ".mbr-section-title B": {
+              "font-size": "48px"
             }
           },
           "_params": {
@@ -441,14 +498,14 @@
             "showBgText": false,
             "bgText": "About",
             "showButtons": false,
-            "imageSize": "62",
+            "imageSize": "72",
             "paddingTop": "2",
             "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "file:///Users/Christian-Centre/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2018-04-21_012013/assets/images/_9425_edited2-3-1440x2016.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#0e010b",
+            "bgColor": "#000000",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -459,7 +516,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/author1-600x856.jpg",
+              "src": "@PROJECT_PATH@/assets/images/authorx-600x592.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -472,7 +529,7 @@
           "title2": "About us",
           "title3": "THE<br>AUTHOR",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "With sardonic wit and unmatched creative expressions, Alexander Emmanuel Ochogwu delves into incisive subjects through his writings. As a master of satire and socio-political euphemisms, most his works border on gender, relationships, family life and security.<br><br>Alexander Emmanuel Ochogwu, an Air Force Flight Lieutenant, Strategist, Poet and Writer is the author of The Diary of a Boy Soldier and Omo; as well as collections of personal and academic essays and poems to his credit. His debut, The Diary of a Boy Soldier received both local and international encomiums. Omo made the list of Daily Trust Newspaper Most Anticipated Book of 2018, amongst other pre-published recognitions. Amongst other things, the author is a Peace, Security and Conflict Studies expert, academic, teacher, lover of arts and music. He lives in Abuja and Port Harcourt.<br><br>Meanwhile, he is his working on Adunni, another masterpiece, and sequel to the highly anticipated novel, Omo.<br>",
+          "caption1": "<b>Alexander Emmanuel Ochogwu,</b> an Air Force Flight Lieutenant, Strategist, Poet and Writer, is the author of The Diary of a Boy Soldier and Omo; as well as collections of personal and academic essays and poems to his credit. His debut, The Diary of a Boy Soldier have received both local and international encomiums. Omo made the list of Daily Trust Newspaper Most Anticipated Book of 2018, amongst other pre-published recognitions. Amongst other things, the author is a Strategist, Peace, Security and Conflict Studies expert, academic, teacher, lover of arts. He lives in Abuja and Port Harcourt.<br><br>Meanwhile, he is his working on Adunni, another masterpiece, and sequel to the highly anticipated novel, Omo.<br>",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More &nbsp;&nbsp;<span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
@@ -535,7 +592,7 @@
             }
           },
           "title1": "Daily Trust Bookshelf",
-          "subtitle1": "<a href=\"https://www.dailytrust.com.ng/\" class=\"text-warning\" style=\"font-style: normal;\">www.dailytrust.c4om.ng</a>",
+          "subtitle1": "<a href=\"https://www.dailytrust.com.ng/\" class=\"text-warning\" style=\"font-style: normal;\">www.dailytrust.com.ng</a>",
           "caption1": "<i>Anticipate with the world for this breath-taking and daring book</i>",
           "number1": "1",
           "title2": "Responsive",
@@ -589,7 +646,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/forest-house-1920x1200.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/front-page-sliderx-1920x505.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#000745",
@@ -628,7 +685,8 @@
               "margin-bottom": "0"
             },
             ".mbr-section-title": {
-              "font-size": "48px"
+              "font-size": "48px",
+              "text-align": "left"
             },
             ".mbr-section-subtitle": {
               "font-family": "'Roboto Condensed', sans-serif",
@@ -657,7 +715,7 @@
           },
           "title": "WEEKLY EXCERPTS",
           "text": "ANTICIPATE...&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://www.instagram.com/alexandereccentric/\" data-toolbar=\"-mbrBtnMove\">FOLLOW US</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.instagram.com/alexandereccentric/\" data-toolbar=\"-mbrBtnMove\">FOLLOW ÓMÓ</a>    ",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -761,6 +819,20 @@
           "_anchor": "feed-k"
         },
         {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "bgColor": "#f1c40f"
+          },
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-black-outline btn-black\" href=\"https://www.facebook.com/OmoTheBook/\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-facebook-square mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://www.instagram.com/alexandereccentric/\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTAGRAM</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://twitter.com/phronesis3412\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-twitter-square mbr-iconfont mbr-iconfont-btn\"></span>TWITTER</a> <a data-app-btn=\"true\" class=\"btn btn-black-outline btn-black\" href=\"tel:+234806901 2757\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-phone-square mbr-iconfont mbr-iconfont-btn\"></span>MOBILE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-17"
+        },
+        {
           "_styles": {
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
@@ -771,7 +843,7 @@
               "text-align": "right"
             },
             ".mbr-section-title B": {
-              "font-size": "46px"
+              "font-size": "48px"
             }
           },
           "_params": {
@@ -842,7 +914,7 @@
             "paddingTop": 2,
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/omo-mockupx-2000x150018.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/omo-mockupx-2000x15002.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#323232",
